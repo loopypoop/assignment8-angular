@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Amanbek",
+      "password": "thebest(no)",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "username": "Nurbek",
+      "password": "thebest(no)",
+      "age": 20
+    },
+    {
+      "id": 3,
+      "username": "Alibek",
+      "password": "thebest(no)",
+      "age": 24
+    },
+    {
+      "id": 4,
+      "username": "Tursynbek",
+      "password": "thebest(no)",
+      "age": 18
+    },
+    {
+      "id": 5,
+      "username": "Ermek",
+      "password": "thebest(no)",
+      "age": 32
+    },
+    {
+      "id": 6,
+      "username": "Nazarbek",
+      "password": "thebest(no)",
+      "age": 13
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "language": "Kazakh",
+      "direction": "Data Science",
+      "level": "2"
+    },
+    {
+      "id": 2,
+      "language": "Russian",
+      "direction": "Cyber-security",
+      "level": "4"
+    },
+    {
+      "id": 3,
+      "language": "English",
+      "direction": "Pedagogics",
+      "level": "5"
+    },
+    {
+      "id": 4,
+      "language": "Russian",
+      "direction": "Enterprise Application Development",
+      "level": "4"
+    },
+    {
+      "id": 5,
+      "language": "English",
+      "direction": "Block Chain",
+      "level": "3"
+    }
+  ]
+}

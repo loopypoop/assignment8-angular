@@ -1,0 +1,41 @@
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['']">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['../users']">Users</a>
+        </li>
+        <li>
+          <a class="nav-link" [routerLink]="['../groups']">Groups</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="table">
+    <p class="h2">Groups</p>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Language</th>
+        <th scope="col">Direction</th>
+        <th scope="col">Level</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let group of groups">
+        <th scope="row">{{group.id}}</th>
+        <td>{{group.language}}</td>
+        <td>{{group.direction}}</td>
+        <td>{{group.level}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

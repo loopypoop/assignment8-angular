@@ -1,0 +1,30 @@
+header {
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  padding: 0;
+}
+
+
+.nav-item {
+  margin-right: 26px;
+  position: relative;
+}
+
+a {
+  color: black;
+  padding: 0;
+  height: 68px;
+  line-height: 72px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+li {
+  height: 68px;
+}
+
+.table {
+  margin-top: 30px;
+}
